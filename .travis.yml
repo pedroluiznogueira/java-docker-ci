@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - mvn clean package -DskipTests
+  - mvn clean package
   - docker build -t pedroluiznogueira/java-docker-ci:"$VERSION" -f Dockerfile .
 
 script:
