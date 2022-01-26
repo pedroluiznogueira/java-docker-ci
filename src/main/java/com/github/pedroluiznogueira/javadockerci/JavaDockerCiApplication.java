@@ -8,6 +8,7 @@ public class JavaDockerCiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JavaDockerCiApplication.class, args);
+		System.out.println("Running fine...");
 	}
 
 }
