@@ -8,7 +8,7 @@ before_install:
   - docker build -t pedroluiznogueira/java-docker-ci:"$VERSION" -f Dockerfile .
 
 script:
-  - docker run -e CI=true pedroluiznogueira/java-docker-ci:"$VERSION"
+  - docker images
 
 after_success:
   - docker build -t pedroluiznogueira/java-docker-ci:"$VERSION" .
