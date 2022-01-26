@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.github.pedroluiznogueira.javadockerci.JavaDockerCiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.408 s - in com.github.pedroluiznogueira.javadockerci.JavaDockerCiApplicationTests
